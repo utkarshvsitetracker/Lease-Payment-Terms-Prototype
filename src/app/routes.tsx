@@ -7,4 +7,4 @@ export const router = createBrowserRouter([
   { path: '/',               Component: SiteRecordPage },
   { path: '/lease',          Component: LeaseRecordPage },
   { path: '/payment-terms',  Component: AppShell },
-]);
+], { basename: '/Lease-Payment-Terms-Prototype' });
